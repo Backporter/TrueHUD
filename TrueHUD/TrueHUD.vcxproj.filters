@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Hooks.cpp" />
+    <ClCompile Include="src\HUDHandler.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\ModAPI.cpp" />
+    <ClCompile Include="src\Papyrus.cpp" />
+    <ClCompile Include="src\Settings.cpp" />
+    <ClCompile Include="src\Utils.cpp" />
+    <ClCompile Include="src\Widgets\ActorInfoBar.cpp" />
+    <ClCompile Include="src\Widgets\BossInfoBar.cpp" />
+    <ClCompile Include="src\Widgets\FloatingText.cpp" />
+    <ClCompile Include="src\Widgets\InfoBarBase.cpp" />
+    <ClCompile Include="src\Widgets\PlayerWidget.cpp" />
+    <ClCompile Include="src\Widgets\RecentLoot.cpp" />
+    <ClCompile Include="src\Widgets\ShoutIndicator.cpp" />
+    <ClCompile Include="src\Scaleform\Scaleform.cpp" />
+    <ClCompile Include="src\Scaleform\TrueHUDMenu.cpp" />
+    <ClCompile Include="src\PCH.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Hooks.h" />
+    <ClInclude Include="src\HUDHandler.h" />
+    <ClInclude Include="src\ModAPI.h" />
+    <ClInclude Include="src\Offsets.h" />
+    <ClInclude Include="src\Papyrus.h" />
+    <ClInclude Include="src\PCH.h" />
+    <ClInclude Include="src\Settings.h" />
+    <ClInclude Include="src\TrueHUDAPI.h" />
+    <ClInclude Include="src\Utils.h" />
+    <ClInclude Include="src\Widgets\ActorInfoBar.h" />
+    <ClInclude Include="src\Widgets\BossInfoBar.h" />
+    <ClInclude Include="src\Widgets\FloatingText.h" />
+    <ClInclude Include="src\Widgets\InfoBarBase.h" />
+    <ClInclude Include="src\Widgets\PlayerWidget.h" />
+    <ClInclude Include="src\Widgets\RecentLoot.h" />
+    <ClInclude Include="src\Widgets\ShoutIndicator.h" />
+    <ClInclude Include="src\Scaleform\TrueHUDMenu.h" />
+    <ClInclude Include="src\Scaleform\Scaleform.h" />
+  </ItemGroup>
+</Project>
